@@ -1,6 +1,6 @@
 # labeling
 
-convert your photo to video then label your images in one click
+convert your images to video then label your images in one click
 
 
 
