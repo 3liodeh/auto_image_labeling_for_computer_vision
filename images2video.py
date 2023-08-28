@@ -8,7 +8,7 @@ class Image2Video:
 
         img_names = os.listdir(ImageFileDirection)
         
-        frame_size = cv2.imread(os.path.join(ImageFileDirection, img_names[0])).shape[:2][::-1]
+        frame_size = cv2.imread(os.path.join(ImageFileDirection, img_names[0])).shape[:2]
         
         video_writer = cv2.VideoWriter(videoPath_Name, codec, fps, frame_size)
 
