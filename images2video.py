@@ -14,7 +14,6 @@ class Image2Video:
 
 
         for i in range(len(img_names)):
-            #print(f"({i}).{img_names[0].split('.')[-1]}")
             img_path =f"{ImageFileDirection}\ ({i}).{img_names[0].split('.')[-1]}"
             img = cv2.imread(img_path)
             #print(img_path)
